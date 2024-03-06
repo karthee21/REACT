@@ -6,7 +6,9 @@ import { Home } from "./Home";
 import Table from '../list&keys/table';
 import Counter from "../list&keys/botton";
 import Form from "../Form-validation/validation";
-import LifeCycleMethod from "../LifeCycleMethod/LifeCycleMethod"
+import Mounting from "../LifeCycleMethod/Mounting"
+import { Pagination } from "../LifeCycleMethod/Pagination";
+import { CounterF } from "../Hooks/UseState";
 
 const Routing = () => {
     return(
@@ -17,7 +19,9 @@ const Routing = () => {
             <Route path="/Table" element={<Table/>}/>
             <Route path="/Bottons" element={<Counter/>}/>
             <Route path="/Form" element={<Form/>}/>
-            <Route path="/LifeCycleMethod" element={<LifeCycleMethod/>}/>
+            <Route path="/Mounting" element={<Mounting/>}/>
+            <Route path="/pagination" element={<Pagination/>}/>
+            <Route path="/UseState" element={<CounterF/>}/>
         </Routes>
         </>
     )

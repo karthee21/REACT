@@ -28,15 +28,17 @@ function Navbar() {
                             </li>
                            
                             <li class="nav-item">
-                                <Link class="nav-link" to="/LifeCycleMethod">LifeCycleMethods</Link>
+                                <Link class="nav-link" to="/Mounting">Mounting</Link>
                             </li>
-
-
-
-
-
-
-
+                            <li class="nav-item">
+                                <Link class="nav-link" to="/pagination">pagination</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link class="nav-link" to="/UseState">UseState</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link class="nav-link" to="/UseEffect">UseEffect</Link>
+                            </li>
 {/*                            <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Dropdown

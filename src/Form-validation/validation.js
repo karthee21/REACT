@@ -109,7 +109,7 @@ hadleValidation= () =>{
                     <input type="phonenumber" 
                     className="form-control" 
                     placeholder="PhoneNumber" 
-                    name="phonenumber" 
+                    name="phoneNumber" 
                     onChange={(e)=>{this.handleChange(e)}}
                     />
                     <p className="text-danger">{this.state.phoneNumberErr}</p>
