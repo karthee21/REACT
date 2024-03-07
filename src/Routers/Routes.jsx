@@ -9,6 +9,7 @@ import Form from "../Form-validation/validation";
 import Mounting from "../LifeCycleMethod/Mounting"
 import { Pagination } from "../LifeCycleMethod/Pagination";
 import { CounterF } from "../Hooks/UseState";
+import UseEffectPagination from "../Hooks/UseEffect";
 
 const Routing = () => {
     return(
@@ -22,6 +23,7 @@ const Routing = () => {
             <Route path="/Mounting" element={<Mounting/>}/>
             <Route path="/pagination" element={<Pagination/>}/>
             <Route path="/UseState" element={<CounterF/>}/>
+            <Route path="/UseEffect" element={<UseEffectPagination/>}/>
         </Routes>
         </>
     )
