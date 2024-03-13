@@ -35,7 +35,7 @@ const Table = () => {
   ]
   return (
     <>
-    <h1 className='App'>listsandkeys</h1>
+    <h1>listsandkeys</h1>
     <table className="table">
       <thead>
       <tr>
