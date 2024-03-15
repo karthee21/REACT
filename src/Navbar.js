@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 function Navbar() {
     return (
         <>
@@ -26,7 +26,7 @@ function Navbar() {
                             <li class="nav-item">
                                 <Link class="nav-link" to="/Form">Form</Link>
                             </li>
-                           
+
                             <li class="nav-item">
                                 <Link class="nav-link" to="/Mounting">Mounting</Link>
                             </li>
@@ -39,7 +39,13 @@ function Navbar() {
                             <li class="nav-item">
                                 <Link class="nav-link" to="/UseEffect">UseEffect</Link>
                             </li>
-{/*                            <li class="nav-item dropdown">
+                            <li class="nav-item">
+                                <Link class="nav-link" to="/UseReducerHook">UseReducerHook</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link class="nav-link" to="/UseRefHook">UseRefHook</Link>
+                            </li>
+                            {/*                            <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Dropdown
                                 </a>

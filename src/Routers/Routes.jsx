@@ -10,7 +10,8 @@ import Mounting from "../LifeCycleMethod/Mounting"
 import { Pagination } from "../LifeCycleMethod/Pagination";
 import { CounterF } from "../Hooks/UseState";
 import UseEffectPagination from "../Hooks/UseEffect";
-
+import UseReducerHook from "../Hooks/usereducerhook";
+import UseRefHook from "../Hooks/UseRefHook";
 const Routing = () => {
     return(
         <>
@@ -24,8 +25,11 @@ const Routing = () => {
             <Route path="/pagination" element={<Pagination/>}/>
             <Route path="/UseState" element={<CounterF/>}/>
             <Route path="/UseEffect" element={<UseEffectPagination/>}/>
+            <Route path="/UseReducerHook" element={<UseReducerHook/>}/>
+            <Route path="/UseRefHook" element={<UseRefHook/>}/>
         </Routes>
         </>
     )
+
 }
 export default Routing
